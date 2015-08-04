@@ -1,0 +1,42 @@
+{
+  "name": "import-nvd3",
+  "authors": [
+    "Jalal Fathi <jfathi.mail@gmail.com> (http://jalal.io)"
+  ],
+  "description": "The import element of the nv3 charts library.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "nvd3",
+    "import"
+  ],
+  "main": "import-nvd3.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "nvd3": "novus/nvd3#~1.8.1",
+    "Resizer": "alefwmm/Resizer#^0.0.1",
+    "import-d3": "*",
+    "iron-ajax": "PolymerElements/iron-ajax#~1.0.3"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  },
+  "_release": "a288bff184",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a288bff184ce4ef08143a4457271f3bee44f2a71"
+  },
+  "_source": "git://github.com/JaySunSyn/import-nvd3.git",
+  "_target": "*",
+  "_originalSource": "import-nvd3"
+}

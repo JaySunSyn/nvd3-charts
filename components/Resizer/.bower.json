@@ -1,0 +1,32 @@
+{
+  "name": "Resizer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/alefwmm/Resizer",
+  "authors": [
+    "Álef Miranda <alefwmm@gmail.com>"
+  ],
+  "description": "Detect element resize event like any other event",
+  "main": "\"Resizer.html\"",
+  "keywords": [
+    "resize",
+    "event",
+    "element"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "adad9fee987ddbc63c68c451e95b2d141ca202ae"
+  },
+  "_source": "git://github.com/alefwmm/Resizer.git",
+  "_target": "^0.0.1",
+  "_originalSource": "alefwmm/Resizer"
+}
