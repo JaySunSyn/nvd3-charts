@@ -10,4 +10,4 @@ Use:
 
     <nvd3-multi-bar height="300" width="960" url="demo.json" stacked="[[stacked]]"></nvd3-multi-bar>
 
-
+See [demo](http://jaysunsyn.github.io/nvd3-charts/components/nvd3-charts/)
