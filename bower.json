@@ -1,0 +1,33 @@
+{
+  "name": "nvd3-charts",
+  "version": "1.0.0",
+  "authors": [
+    "Jalal Fathi <jfathi.mail@gmail.com> (http://jalal.io)"
+  ],
+  "description": "Polymer elements for nvd3 charts",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "nvd3",
+    "d3"
+    "charts",
+    "graphs"
+  ],
+  "main": "nvd3-charts.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/JaySunSyn/nvd3-charts",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "import-nvd3": "*"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
