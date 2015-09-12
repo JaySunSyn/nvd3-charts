@@ -32,7 +32,7 @@ Example:
   <template>
     <button on-tap="update">Stack/Group Toggle</button>
     <div>View Finder</div>
-    <nvd3-view-finder height="300" width="960" url="demo.json"></nvd3-view-finder>
+    <nvd3-view-finder id="viewFinder" height="300" width="960" url="demo.json"></nvd3-view-finder>
     <div>Line Chart</div>
     <nvd3-line height="300" width="960"  url="demo.json"></nvd3-line>
     <div>Multi Bar</div>
@@ -60,9 +60,8 @@ Example:
     },
 
     ready:function(){
-      this.piedata = [
-                      1,2,3
-                    ];
+      this.piedata = [1,2,3];
+      this.$.viewFinder.tickFormat = function (d) { return d + '%' };
     },
 
     update:function(){
